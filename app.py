@@ -18,7 +18,7 @@ while True:
     a=a.strip()
     match a:
         case "add" | "Add":
-            todo=input("please add a Todo")
+            todo=input("please add a Todo\n")
             add_todo(list_of_todo,todo)
             print_todo(list_of_todo)
         case "show":
