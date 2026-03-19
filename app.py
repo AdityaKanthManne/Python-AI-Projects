@@ -32,7 +32,7 @@ while True:
         case _:
             print("Error")
 
-print("Bye\n")
+print("Bye")
 
 
 
